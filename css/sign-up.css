@@ -1,0 +1,35 @@
+.btn.btn-footer.up { display: none; }
+
+/* MAIN */
+main {
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main form * {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main form input {
+    margin-bottom: 1.5rem;
+    padding: .5rem 1rem;
+    outline: none;
+}
+
+main form button { border: 1px solid lightgray; }
+
+main form button:hover {
+    cursor: pointer;
+    background: lightgray;
+    color: #fff;
+    outline: none;
+    border: 1px solid lightgray;
+}

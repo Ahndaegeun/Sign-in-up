@@ -1,11 +1,7 @@
-window.onload = function() {
-    document.getElementsByClassName('first').onclick = function () {
-        alert('h');
-    }; 
-    document.getElementById('second').onclick = function () {
-        alert('p');
-    };
-    document.getElementById('third').onclick = function () {
-        alert('i');
-    };
-};
+function changeClass(){
+    document.getElementsByClassName("display-on").className = "display-off"
+}
+
+window.onload = function(){
+    document.getElementsByClassName("display-on").addEventListener( 'click', changeClass);
+}
